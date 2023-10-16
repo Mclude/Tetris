@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/btn.wav</file>
+        <file>img/btn2.wav</file>
+        <file>img/down2.wav</file>
+        <file>img/parss.wav</file>
+        <file>img/stara.wav</file>
+        <file>img/box.jpg</file>
+        <file>img/box2.jpg</file>
+        <file>img/backmusic.wav</file>
+        <file>img/show.wav</file>
+        <file>img/clear.wav</file>
+        <file>img/pause.png</file>
+        <file>img/soundclose.png</file>
+        <file>img/icon.png</file>
+        <file>img/over.wav</file>
+        <file>img/rotate_[cut_0sec].wav</file>
+        <file>img/btn.png</file>
+        <file>img/btnp.png</file>
+        <file>img/abtn.png</file>
+        <file>img/abtnp.png</file>
+        <file>img/greenbtn.png</file>
+        <file>img/greenbtnp.png</file>
+        <file>img/redbtn.png</file>
+        <file>img/redbtnp.png</file>
+        <file>img/x_.png</file>
+        <file>img/x_1.png</file>
+    </qresource>
+</RCC>

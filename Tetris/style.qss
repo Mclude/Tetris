@@ -1,0 +1,14 @@
+QPushButton#DropOutBtn{
+	background-image: url(:/img/btn.png);
+	background-position:center;
+	 background-repeat: no-repeat;
+	border: 2px solid black;
+    }
+QPushButton#DropOutBtn:pressed {
+
+    border-radius: 80;
+background-image: url(:/img/btnp.png);
+background-position:center;
+    background-repeat: no-repeat;
+border: 2px solid black;
+}

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton#DropOutBtn{
+	 border-radius: 80;
+	background-image: url(:/img/btn.png);
+	background-position:center;
+	 background-repeat: no-repeat;
+	border: 2px solid black;
+    }
+QPushButton#DropOutBtn:pressed {
+
+    border-radius: 80;
+	background-image: url(:/img/btnp.png);
+	background-position:center;
+    background-repeat: no-repeat;
+	border: 2px solid black;
+}
+
+QPushButton#RotateBtn,#MoveLeftBtn,#MoveRightBtn,#MoveDownBtn{
+ 	border-radius: 50;
+	background-image: url(:/img/abtn.png);
+	background-clip:content-box;
+	background-position:center;
+	 background-repeat: no-repeat;
+	border: 2px solid black;
+    }
+QPushButton#RotateBtn:pressed,#MoveLeftBtn:pressed,#MoveRightBtn:pressed,#MoveDownBtn:pressed {
+    border-radius: 50;
+	background-image: url(:/img/abtnp.png);
+	background-position:center;
+    background-repeat: no-repeat;
+	border: 2px solid black;
+}
+
+QPushButton#PauseBtn,#MusicBtn{
+ 	border-radius:25;
+	background-image: url(:/img/greenbtn.png);
+	background-position:center;
+	 background-repeat: no-repeat;
+	border: 2px solid black;
+    }
+QPushButton#PauseBtn:pressed ,#MusicBtn:pressed{
+    border-radius: 25;
+	background-image: url(:/img/greenbtnp.png);
+	background-position:center;
+    background-repeat: no-repeat;
+	border: 2px solid black;
+}
+
+QPushButton#ReStartBtn{
+	 border-radius: 25;
+	background-image: url(:/img/redbtn.png);
+	background-position:center;
+	 background-repeat: no-repeat;
+	border: 2px solid black;
+    }
+QPushButton#ReStartBtn:pressed {
+
+    border-radius: 25;
+	background-image: url(:/img/redbtnp.png);
+	background-position:center;
+    background-repeat: no-repeat;
+	border: 2px solid black;
+}
+
+QPushButton#close{
+	 border-radius: 10;
+	background-image: url(:/img/x_.png);
+	background-position:center;
+	 background-repeat: no-repeat;
+    }
+
+QPushButton#minwindow{
+	 border-radius: 10;
+	background-image: url(:/img/x_1.png);
+	background-position:center;
+	 background-repeat: no-repeat;
+
+    }
+QPushButton#minwindow:hover ,#close:hover {
+	background-position:20px;
+    }
+</string>
+  </property>
+  <widget class="QPushButton" name="DropOutBtn">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>370</y>
+     <width>161</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Fira Code SemiBold</family>
+     <pointsize>14</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="PauseBtn">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>270</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="MoveLeftBtn">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>350</y>
+     <width>101</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="RotateBtn">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>230</y>
+     <width>101</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="MusicBtn">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>270</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ReStartBtn">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>270</y>
+     <width>51</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="MoveRightBtn">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>340</y>
+     <width>101</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="MoveDownBtn">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>440</y>
+     <width>101</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="close">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>50</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="minwindow">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>50</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>minwindow</sender>
+   <signal>clicked()</signal>
+   <receiver>Widget</receiver>
+   <slot>showMinimized()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>440</x>
+     <y>110</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>close</sender>
+   <signal>released()</signal>
+   <receiver>Widget</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>470</x>
+     <y>110</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
